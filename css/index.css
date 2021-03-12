@@ -181,16 +181,12 @@ header{
     display: flex;
     padding-top:2.5%;
     padding-bottom: 2.5%;
-   
-    /* display: flex; */
-    border: 2px solid blue;
+    align-items: baseline;
 }
 .logo{
-    /* display: flex;
-    flex-direction: row; */
-    border: 5px solid green;
     width:25%;
-    /* margin-left:3%; */
+
+    
 }
 .head-nav{
     width: 45em;
@@ -199,20 +195,75 @@ header{
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
-    
-    border: 2px solid red;
 }
 .head-nav a{
     color:black;
     text-decoration: none;
+    width: 20%;
+    height: 100%;
 }
 /* backgound img */
 .bg-img{
-    background-image:url("C:/Users/Ricky Tunes/Documents/repositories/web-Sprint-Challenge-User-Interface-and-Git/img/jumbo.jpg");
+    
     height:15vh;
-    /* background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top; */
     margin-bottom:2.5%;
-    border: 2px solid red;
+    
+}
+
+
+/* About page */
+.about-bg-img{
+    
+    height:15vh;
+    margin-bottom:2.5%;
+    
+}
+
+/* Body section */
+.body-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+     
+    
+}
+.learn-more{
+    width:47%;
+    padding-bottom:.1%;
+    margin-bottom:2.5%;
+   
+    border-bottom: 3px dotted gray;
+   
+}
+.right-section{
+    margin-right: 2.5%;
+}
+button{
+    padding: 2.5% 5%;
+    margin:5% 0 ;
+    border-radius: 10px;
+}
+/* about section */
+.about-p{
+    padding:2% 2% ;
+    margin-bottom: 5%;
+   
+    border-bottom: 3px dotted gray;
+}
+/* let's work section */
+.work-p{
+    margin-bottom: 5%;
+}
+h3{
+    margin-top: 5%;
+}
+
+/* basic functionality */
+nav a:hover{
+    color:	#cc2936;
+}
+button:hover{
+    color: aliceblue;
+    background-color: black;
 }
