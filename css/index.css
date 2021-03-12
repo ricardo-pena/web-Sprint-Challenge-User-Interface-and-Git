@@ -144,3 +144,126 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* Boxes color */
+#box1{
+    background: teal;
+}
+#box2{
+    background: gold;
+}
+#box3{
+    background: cadetblue;
+}
+#box4{
+    background: coral;
+}
+#box5{
+    background: crimson;
+}
+#box6{
+    background: forestgreen;
+}
+#box7{
+    background: darkorchid;
+}
+#box8{
+    background: hotpink;
+}
+#box9{
+    background: indigo;
+}
+#box10{
+    background: dodgerblue;
+}
+
+/* Header NAV */
+header{
+    display: flex;
+    padding-top:2.5%;
+    padding-bottom: 2.5%;
+    align-items: baseline;
+}
+.logo{
+    width:25%;
+
+    
+}
+.head-nav{
+    width: 45em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+.head-nav a{
+    color:black;
+    text-decoration: none;
+    width: 20%;
+    height: 100%;
+}
+/* backgound img */
+.bg-img{
+    
+    height:15vh;
+    margin-bottom:2.5%;
+    
+}
+
+
+/* About page */
+.about-bg-img{
+    
+    height:15vh;
+    margin-bottom:2.5%;
+    
+}
+
+/* Body section */
+.body-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+     
+    
+}
+.learn-more{
+    width:47%;
+    padding-bottom:.1%;
+    margin-bottom:2.5%;
+   
+    border-bottom: 3px dotted gray;
+   
+}
+.right-section{
+    margin-right: 2.5%;
+}
+button{
+    padding: 2.5% 5%;
+    margin:5% 0 ;
+    border-radius: 10px;
+}
+/* about section */
+.about-p{
+    padding:2% 2% ;
+    margin-bottom: 5%;
+   
+    border-bottom: 3px dotted gray;
+}
+/* let's work section */
+.work-p{
+    margin-bottom: 5%;
+}
+h3{
+    margin-top: 5%;
+}
+
+/* basic functionality */
+nav a:hover{
+    color:	#cc2936;
+}
+button:hover{
+    color: aliceblue;
+    background-color: black;
+}
