@@ -144,3 +144,75 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* Boxes color */
+#box1{
+    background: teal;
+}
+#box2{
+    background: gold;
+}
+#box3{
+    background: cadetblue;
+}
+#box4{
+    background: coral;
+}
+#box5{
+    background: crimson;
+}
+#box6{
+    background: forestgreen;
+}
+#box7{
+    background: darkorchid;
+}
+#box8{
+    background: hotpink;
+}
+#box9{
+    background: indigo;
+}
+#box10{
+    background: dodgerblue;
+}
+
+/* Header NAV */
+header{
+    display: flex;
+    padding-top:2.5%;
+    padding-bottom: 2.5%;
+   
+    /* display: flex; */
+    border: 2px solid blue;
+}
+.logo{
+    /* display: flex;
+    flex-direction: row; */
+    border: 5px solid green;
+    width:25%;
+    /* margin-left:3%; */
+}
+.head-nav{
+    width: 45em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    
+    border: 2px solid red;
+}
+.head-nav a{
+    color:black;
+    text-decoration: none;
+}
+/* backgound img */
+.bg-img{
+    background-image:url("C:/Users/Ricky Tunes/Documents/repositories/web-Sprint-Challenge-User-Interface-and-Git/img/jumbo.jpg");
+    height:15vh;
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top; */
+    margin-bottom:2.5%;
+    border: 2px solid red;
+}
